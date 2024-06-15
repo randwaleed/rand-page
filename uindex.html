@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة ويب شخصية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #f5f5dc; /* اللون البيج */
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about {
+            margin-top: 2rem;
+        }
+        .social {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .social a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 20px;
+        }
+        footer {
+            background-color: #f5f5dc; /* اللون البيج */
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>مرحبًا بك في صفحتي الشخصية</h1>
+    </div>
+    <div class="container">
+        <h2>عرض الأعمال الفنية الخاصة بي</h2>
+        <p>
+            هنا يمكنك استعراض أعمالي الفنية التي تشمل الرسم على الزجاج، الأعمال اليدوية من الخشب، والمزيد من الفنون التشكيلية التي استلهمتها من الطبيعة والحياة اليومية.
+        </p>
+        <div class="gallery">
+            <img src="artwork1.jpg" alt="عمل فني 1">
+            <img src="artwork2.jpg" alt="عمل فني 2">
+            <img src="artwork3.jpg" alt="عمل فني 3">
+            <!-- يمكنك إضافة المزيد من الصور هنا -->
+        </div>
+        <div class="about">
+            <h2>من نحن</h2>
+            <p>
+                أنا فنان يعشق العمل اليدوي والفنون التشكيلية. أستلهم أعمالي من الطبيعة والمواد الطبيعية مثل الخشب والزجاج لإنتاج قطع فنية فريدة.
+            </p>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com/your-profile" target="_blank">فيسبوك</a>
+            <a href="https://twitter.com/your-profile" target="_blank">تويتر</a>
+            <a href="https://instagram.com/your-profile" target="_blank">إنستغرام</a>
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+</body>
+</html>
